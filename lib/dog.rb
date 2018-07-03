@@ -13,5 +13,4 @@ class Dog
       puts song
     end
   end
-
 end
