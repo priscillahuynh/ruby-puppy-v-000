@@ -20,5 +20,5 @@ class Dog
     end
     @@all
   end
-    
+
 end
