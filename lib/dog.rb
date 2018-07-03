@@ -8,9 +8,10 @@ class Dog
     @@all<<self
   end
 
-  def self.all 
+  def self.all
     @@all.each do |song|
       puts song
+    end
   end
 
 end
