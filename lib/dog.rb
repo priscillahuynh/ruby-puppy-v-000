@@ -1,13 +1,16 @@
 class Dog
 
-attr_accessor :name
-@@all = []
+  attr_accessor :name
+  @@all = []
 
-def initialize(name)
-  @name = name
-  @@all<<self
-end
+  def initialize(name)
+    @name = name
+    @@all<<self
+  end
 
-
+  def self.all 
+    @@all.each do |song|
+      puts song
+  end
 
 end
