@@ -18,6 +18,6 @@ class Dog
     @@all.clear
     end
     # @@all
-  end
+  # end
 
 end
