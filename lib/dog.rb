@@ -18,7 +18,7 @@ class Dog
     @@all.each do |dog|
       dog.clear
     end
-    @@all
+    # @@all
   end
 
 end
